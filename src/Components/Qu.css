@@ -1,0 +1,110 @@
+/* General body styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #E0F7FA, #E8F5E9); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Styling for the quiz container */
+.qu-box {
+    width: 640px; 
+    margin-top: auto;
+    background: #FFFFFF;
+    border-radius: 8px; 
+    box-shadow: 0 0 15px rgba(0,0,0,0.2); 
+    padding: 40px; 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Styling for the heading */
+.qu-box h1 {
+    font-size: 36px; 
+    margin-bottom: 10px;
+    color: #FF5722; 
+}
+
+/* Styling for the horizontal rule */
+.qu-box hr {
+    border: 0;
+    height: 2px; 
+    background: #FF5722; 
+    margin: 30px 0; 
+}
+
+/* Styling for the subheading */
+.qu-box h2 {
+    font-size: 28px; 
+    margin-bottom: 30px; 
+    color: #2196F3; 
+}
+
+/* Styling for the list of options */
+.qu-box ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.qu-box li {
+    padding: 15px; 
+    background: #F1F8E9; 
+    border: 1px solid #C8E6C9; 
+    border-radius: 8px; 
+    margin-bottom: 15px; 
+    cursor: pointer;
+    transition: background 0.3s ease;
+    color: #4CAF50; 
+    font-weight: bolder;
+}
+
+.qu-box li:hover {
+    font-size: large;
+    background: #e6ebf0;
+}
+
+/* Styling for the button */
+.qu-box button {
+    padding: 15px 25px; 
+    font-size: 18px; 
+    border: none;
+    border-radius: 8px; 
+    background-color: #FF5722; 
+    color: #fff;
+    cursor: pointer;
+    margin-top: 30px; 
+    transition: background-color 0.3s ease;
+}
+
+.qu-box button:hover {
+    background-color: #E64A19; 
+}
+
+/* Styling for the question index */
+.qu-box .index {
+    font-size: 18px; 
+    margin-top: 30px; 
+    color: #9E9E9E; 
+}
+
+/* Styling for the correct answer */
+.qu-box .correct {
+    background-color: #90bf9b;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+/* Styling for the wrong answer */
+.qu-box .wrong {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
